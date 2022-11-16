@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header-poland {
+    height: 80px;
+    background-image: linear-gradient(white, red);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: #ffff;
+    font-size: 40px;
+    font-weight: 700px;
+    letter-spacing: 5px;
+
+}
+
+.flag-pol {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: calc(100vh - 80px);
+    background-image: linear-gradient(white 0%, white 50%, red 50%, red 100%);
+    color: red;
+    font-size: 250px;
+    font-weight: 700px;
+    letter-spacing: 5px;
+    -webkit-text-stroke: 4px white;
+
+}
+
+.header-ilaly {
+    height: 50px;
+
+    background-image: linear-gradient(90deg, green, white, red);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 5px;
+    font-size: 40px;
+    font-weight: 700px;
+    text-transform: uppercase;
+    color: green;
+
+}
+
+.flag-ital {
+    display: flex;
+    background-image: linear-gradient(90deg, green 0%, green 33%, white 33%, white 66%, red 66%, red 100%);
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 5px;
+    -webkit-text-stroke: 4px;
+    height: calc(100vh - 80px);
+    font-size: 250px;
+    font-weight: 700px;
+    color: green;
+}
+
+.header-spain {
+    display: flex;
+    background-image: linear-gradient(red, yellow, red);
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 5px;
+    font-size: 40px;
+    font-weight: 700px;
+    height: 80px;
+    color: white;
+}
+
+.flag-spn {
+    background-image: linear-gradient(red 0%, red 23%, yellow 23%, yellow 77%, red 77%, red 100%);
+    height: calc(100vh - 80px);
+
+
+}
+
+.flag-spn img {
+    width: 250px;
+    transform: translate(300px, 150px);
+
+}
+
+.header-usa {
+    background-image: linear-gradient(red, white, red, white, red, white, red, white, red, white, red, white, red);
+    height: 80px;
+    font-size: 40px;
+    font-weight: 700px;
+    letter-spacing: 5px;
+    color: blue;
+    display: flex;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.flag-usa {
+    height: calc(100vh - 80px);
+    background-image: repeating-linear-gradient(red 0%, red 8%, white 8%, white 16%);
+    position: relative;
+
+    /* background-image: linear-gradient(red 0%, red 8%, white 8%, white 16%, red 16%, red 23%, white 23%, white 31%, red 31%, red 38%, white 38%, white red, white, red, white, red, white, red); */
+}
+
+.flag-usa img {
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+
+}
+
+.header-kazakhstan {
+    background-color: rgba(0, 255, 255, 0.747);
+    height: 80px;
+    display: flex;
+    color: yellow;
+    letter-spacing: 5px;
+    font-size: 40px;
+    font-weight: 700px;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+}
+
+.flag-kzk {
+    background-color: aqua;
+    height: calc(100vh - 80px);
+    position: relative;
+
+}
+
+.kzki {
+    position: absolute;
+    top: 110px;
+    left: 500px;
+}
+
+
+.kzk {
+
+    position: absolute;
+
+    right: 1400px;
+    display: flex;
+    width: 50px;
+    height: 100%;
+    bottom: 30px;
+
+
+}
